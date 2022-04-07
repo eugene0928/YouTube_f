@@ -1,4 +1,4 @@
-const API = 'https://youtube-clone111.herokuapp.com/:5000'
+const API = 'https://youtube-clone111.herokuapp.com'
 
 async function request(route, method, body) {
     try {
