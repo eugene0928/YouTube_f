@@ -5,6 +5,7 @@ const lupa = document.querySelector( '#lupa' )
 const mic = document.querySelector( '#mic' )
 
 formSearch.onsubmit = ( event ) => {
+    videoUl.innerHTML = null
     event.preventDefault()
 }
 
